@@ -1,0 +1,23 @@
+.container  {
+    padding: 20px;
+}
+
+.heading  {
+    padding: 10px;
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+.weather-form   {
+    text-align: center;
+    background-color: rgb(209, 148, 209);
+    margin: 5px 0px 5px 0px;
+    padding: 10px
+
+}
+
+.city-list li  {
+    display: inline-block;
+    margin: 10px
+}
