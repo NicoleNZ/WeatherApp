@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { WeatherForm } from './WeatherForm';
-import { WeatherCard } from './WeatherCard';
 import { CityList } from './CityList';
 import './WeatherContainer.css';
 
@@ -56,7 +55,6 @@ export const WeatherContainer = () => {
                 <h3>Get your weather in a snap!</h3>
             </div>
             <WeatherForm getWeather={citySearch} />
-            <WeatherCard data={cityWeather}/>
             <CityList list={cityList}/>
         </div>
     )  
